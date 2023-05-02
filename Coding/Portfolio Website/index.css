@@ -1,0 +1,86 @@
+body {
+    margin: auto;
+    font-family: 'Arial', sans-serif; 
+    color: black;    
+ }
+.nav-link{background-color:black;color: white;}
+.nav-link active{background-color:blueviolet;text-decoration-color: white;}
+#hom{background-image:url(./Assets/hme.png);
+    background-size: cover; 
+	background-position: center;
+    height: 736
+}
+#about{background-image: linear-gradient(to right,#428ecc, #9a8ad4);}
+#artist{background-image: linear-gradient(to right, #cdffd8, #94b9ff);}
+#portfolio{background-image: linear-gradient(to right,#0097b2 , #7ed957);}
+#album{background-image: linear-gradient(to right,#0097b2 , #7ed957);}
+#experience{background-image: linear-gradient(to right,#ffde59, #ff914d);}
+#services{background-image: linear-gradient(to right, #ff66c4 , #ffde59);}
+#contact{background-image: linear-gradient(to right, #ff3131 , #ff914d);}
+
+<nav id="access" role="navigation">
+    <div class="menu-header-menu-container">
+        <ul id="menu-header-menu" class="menu">
+            <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41">
+                <a href="http://localhost:8888/fullstream/?page_id=5">About Us</a>
+            </li>
+            <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35">
+                <a href="http://localhost:8888/fullstream/?page_id=7">Services</a>
+            </li>
+            <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34">
+                <a href="http://localhost:8888/fullstream/?page_id=9">Environmental Surface Cleaning</a>
+            </li>
+            <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33">
+                <a href="http://localhost:8888/fullstream/?page_id=11">Regulations</a>
+            </li>
+            <li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32">
+                <a href="http://localhost:8888/fullstream/?page_id=13">Contact Us</a>
+            </li>
+       </ul>
+</div>
+
+#access {
+    font-family: 'Arial', sans-serif; 
+    background: #0f84e8; /* Show a solid color for older browsers */
+    display: block;
+    margin: 0 auto 6px 55px;
+    position: absolute;
+    top: 100px;
+    z-index: 9999;
+}
+#access ul {
+    font-size: 13px;
+    list-style: none;
+    margin: 0 0 0 -0.8125em;
+    padding-left: 0;
+}
+#access li {
+    position: relative;
+    padding-left: 11px;
+}
+#access a {
+    border-bottom: 2px solid #fff;
+    color: #eee;
+    display: block;
+    line-height: 3.333em;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+    background: #efefef;
+}
+#access li:hover > a,
+#access a:focus {
+    background: #f9f9f9; /* Show a solid color for older browsers */
+    background: -moz-linear-gradient(#cdffd8, #94b9ff);
+    background: -o-linear-gradient(#cdffd8, #94b9ff);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cdffd8), to(#94b9ff)); /* Older webkit syntax */
+    background: -webkit-linear-gradient(#cdffd8, #94b9ff);
+    color: #373737;
+}
+#access ul li:hover > ul {
+    display: block;
+}
